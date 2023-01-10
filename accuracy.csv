@@ -1,0 +1,24 @@
+﻿model,calm ,energetic ,happy,sad,accuracy 
+MLP,142,118,110,118,
+CNN,141,116,117,115,0.8
+TOTAL,142,162,165,144,
+RNN,123,5,82,5,
+LSTM,123,53,58,14,0.66
+Ensemble RNN,124,76,62,50,0.83
+Ensemble LSTM,126,82,59,54,0.85
+Ensemble RNN(last layer removed),123,74,64,50,0.83
+Ensemble LSTM(last layer removed),124,75,67,50,0.84
+TOTAL,126,89,92,71,
+,,,,,
+,,,,,
+model,calm ,energetic ,happy,sad,
+MLP,1.00,0.73,0.67,0.82,
+CNN,0.99,0.72,0.71,0.80,
+,,,,,
+RNN,0.98,0.06,0.89,0.07,
+LSTM,0.98,0.60,0.63,0.20,
+Ensemble RNN,0.98,0.85,0.67,0.70,
+Ensemble LSTM,1.00,0.92,0.64,0.76,
+Ensemble RNN(last layer removed),0.98,0.83,0.70,0.70,
+Ensemble LSTM(last layer removed),0.98,0.84,0.73,0.70,
+,,,,,
